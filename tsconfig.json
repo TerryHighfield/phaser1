@@ -1,11 +1,16 @@
 {
-    "compilerOptions": {
-      "outDir": "./dist/",
-      "sourceMap": true,
-      "noImplicitAny": true,
-      "module": "es6",
-      "target": "es5",
-      "jsx": "react",
-      "allowJs": true
-    }
-  }
+  "compilerOptions": {
+    "module": "commonjs",
+    "outDir": "dist",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "target": "es5",
+    "allowJs": false,
+    "alwaysStrict": true,
+    "baseUrl": "./src",
+    "charset": "utf8",
+    "declaration": true,
+    "moduleResolution": "node"
+  },
+  "include": ["src/**/*"]
+}
